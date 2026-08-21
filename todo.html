@@ -18,10 +18,18 @@
     </header>
 
     <main>
-      <section>
-        <h2>Dia 1 — Botão que muda texto</h2>
-        <p id="mensagem">Clique no botão para mudar este texto.</p>
-        <button type="button" id="btn-mudar">Mudar texto</button>
+      <section id="todo">
+        <h2>Minhas tarefas</h2>
+        <form id="form-todo">
+          <label for="nova-tarefa">Nova tarefa</label>
+          <input
+            id="nova-tarefa"
+            type="text"
+            placeholder="Ex.: revisar HTML"
+          />
+          <button type="submit">Adicionar</button>
+        </form>
+        <ul id="lista-tarefas"></ul>
       </section>
     </main>
 
@@ -29,16 +37,6 @@
       <p>Semana 2 · Guia em SEMANA-2.md</p>
     </footer>
 
-    <script>
-     let cliques = 0;
-
-const botao = document.querySelector("#btn-mudar");
-const mensagem = document.querySelector("#mensagem");
-
-botao.addEventListener("click", function () {
-  cliques = cliques + 1;
-  mensagem.textContent = "Você clicou " + cliques + " vez(es).";
-});
-    </script>
+    <script src="todo.js"></script>
   </body>
 </html>
