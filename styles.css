@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.6;
+  color: #1a1a1a;
+  background-color: #900404;
+}
+
+a {
+  color: #0d47a1;
+}
+
+a:hover {
+  color: #1565c0;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.5rem 2rem;
+  background-color: #1a1a1a;
+  color: #f4f1ea;
+}
+
+header h1 {
+  margin: 0 0 0.25rem;
+  font-size: 1.75rem;
+}
+
+header p {
+  margin: 0;
+  color: #d4cfc4;
+}
+
+header a {
+  color: #f4f1ea;
+  text-decoration: none;
+  padding: 0.35rem 0.6rem;
+  border-radius: 4px;
+}
+
+header a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.35rem;
+  border-bottom: 2px solid #1a1a1a;
+  padding-bottom: 0.35rem;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  max-width: 100%;
+  padding: 0.6rem 0.75rem;
+  font: inherit;
+  border: 1px solid #999;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid #0d47a1;
+  border-color: #0d47a1;
+}
+
+button {
+  margin-top: 0.5rem;
+  padding: 0.65rem 1.25rem;
+  font: inherit;
+  font-weight: bold;
+  color: #f4f1ea;
+  background-color: #1a1a1a;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  color: #555;
+  border-top: 1px solid #ccc;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.25rem 1rem;
+  }
+
+  header h1 {
+    font-size: 1.4rem;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  main {
+    padding: 1.5rem 1rem 2rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  button {
+    width: 100%;
+    padding: 0.85rem;
+  }
+}
