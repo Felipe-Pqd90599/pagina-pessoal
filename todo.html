@@ -30,11 +30,14 @@
     </footer>
 
     <script>
-      const botao = document.querySelector("#btn-mudar");
+     let cliques = 0;
+
+const botao = document.querySelector("#btn-mudar");
 const mensagem = document.querySelector("#mensagem");
 
 botao.addEventListener("click", function () {
-  mensagem.textContent = " 2026 Funcionou! Eu escrevi JavaScript hoje.";
+  cliques = cliques + 1;
+  mensagem.textContent = "Você clicou " + cliques + " vez(es).";
 });
     </script>
   </body>
