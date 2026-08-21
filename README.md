@@ -10,6 +10,10 @@ Primeiro projeto: site sobre mim em HTML e CSS.
 
 Clique duas vezes em `index.html` ou abra a pasta no Cursor e use Live Preview.
 
+## Semana 2 (agora)
+
+To-do list em JavaScript: [todo.html](todo.html) · guia [SEMANA-2.md](SEMANA-2.md)
+
 ## Semana 1
 
 | Dia | O que foi |

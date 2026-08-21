@@ -27,6 +27,8 @@ Não precisa criar repositório ainda. Só a conta.
 3. Feche e abra o Cursor de novo.
 4. No terminal: `git --version` — tem que aparecer um número. Se não aparecer, o Cursor ainda está com o terminal antigo: feche tudo e abra de novo.
 
+
+
 ### 3. Mexer neste arquivo
 
 Abra `index.html`. Troque:
@@ -44,12 +46,14 @@ Cada vez que salvar, volte no navegador e aperte `F5`.
 
 ### Pronto do dia 1
 
-- [ ] Conta GitHub criada e e-mail confirmado
-- [ ] `git --version` funciona
-- [ ] `index.html` tem o seu nome, não “Olá, mundo” genérico
-- [ ] Você abriu a página no navegador e deu F5 depois de salvar
+- [x] Conta GitHub criada e e-mail confirmado
+- [x] `git --version` funciona
+- [x] `index.html` tem o seu nome, não “Olá, mundo” genérico
+- [x] Você abriu a página no navegador e deu F5 depois de salvar
 
 ---
+
+
 
 ## Dia 2 — Anatomia do HTML
 
@@ -59,27 +63,31 @@ Leia só o essencial: [MDN — Introdução ao HTML](https://developer.mozilla.o
 
 No `index.html`, use estas tags (todas elas, pelo menos uma vez):
 
-| Tag | Para quê |
-|-----|----------|
-| `header`, `main`, `footer` | estrutura da página |
-| `h1` (só um) e `h2` | títulos |
-| `p` | parágrafos |
-| `ul` + `li` | lista (ex.: o que você quer aprender) |
-| `a href="..."` | link (GitHub, LinkedIn, ou “em breve”) |
-| `strong` e `em` | ênfase |
-| `<!-- comentário -->` | uma nota para você |
+
+| Tag                        | Para quê                               |
+| -------------------------- | -------------------------------------- |
+| `header`, `main`, `footer` | estrutura da página                    |
+| `h1` (só um) e `h2`        | títulos                                |
+| `p`                        | parágrafos                             |
+| `ul` + `li`                | lista (ex.: o que você quer aprender)  |
+| `a href="..."`             | link (GitHub, LinkedIn, ou “em breve”) |
+| `strong` e `em`            | ênfase                                 |
+| `<!-- comentário -->`      | uma nota para você                     |
+
 
 Não copie um template da internet. Escreva sobre você.
 
 ### Pronto do dia 2
 
-- [ ] Um `h1` só
-- [ ] `header` / `main` / `footer`
-- [ ] Uma lista com 3 itens
-- [ ] Um link que realmente abre (teste no navegador)
-- [ ] Você explica em voz alta: “tag”, “atributo”, “head vs body”
+- [x] Um `h1` só
+- [x] `header` / `main` / `footer`
+- [x] Uma lista com 3 itens
+- [x] Um link que realmente abre (teste no navegador)
+- [x] Você explica em voz alta: “tag”, “atributo”, “head vs body”
 
 ---
+
+
 
 ## Dia 3 — Conteúdo da página pessoal
 
@@ -95,11 +103,13 @@ Opcional: uma foto sua na pasta do projeto (`foto.jpg`) e `<img src="foto.jpg" a
 
 ### Pronto do dia 3
 
-- [ ] As 3 seções existem e não são Lorem Ipsum
+- [x] As 3 seções existem e não são Lorem Ipsum
 - [ ] `mailto:` abre o e-mail ao clicar
-- [ ] Link do GitHub aponta para o seu perfil (mesmo vazio)
+- [x] Link do GitHub aponta para o seu perfil (mesmo vazio)
 
 ---
+
+
 
 ## Dia 4 — Formulário e acessibilidade
 
@@ -124,11 +134,13 @@ Leia: [MDN — Formulários](https://developer.mozilla.org/pt-BR/docs/Learn/Form
 
 ### Pronto do dia 4
 
-- [ ] Cada campo tem `label`
-- [ ] Tab passa pelos campos em ordem
-- [ ] Você sabe dizer por que `label` existe (leitor de tela + clique no texto foca o campo)
+- [x] Cada campo tem `label`
+- [x] Tab passa pelos campos em ordem
+- [x] Você sabe dizer por que `label` existe (leitor de tela + clique no texto foca o campo)
 
 ---
+
+
 
 ## Dia 5 — CSS de verdade (parte 1)
 
@@ -152,11 +164,13 @@ Leia: [MDN — Começando com CSS](https://developer.mozilla.org/pt-BR/docs/Lear
 
 ### Pronto do dia 5
 
-- [ ] Sem CSS “colado” dentro do HTML (`style="..."` só se for teste rápido; apague depois)
-- [ ] Página não está mais com visual de documento Word cru
-- [ ] Você mudou uma cor, deu F5, viu a mudança
+- [x] Sem CSS “colado” dentro do HTML (`style="..."` só se for teste rápido; apague depois)
+- [x] Página não está mais com visual de documento Word cru
+- [x] Você mudou uma cor, deu F5, viu a mudança
 
 ---
+
+
 
 ## Dia 6 — Celular (responsivo)
 
@@ -171,11 +185,13 @@ Não precisa ficar bonito como um site de agência. Precisa ser legível no tele
 
 ### Pronto do dia 6
 
-- [ ] Você abriu no modo celular do Chrome
-- [ ] Texto não sai da tela (sem scroll horizontal)
-- [ ] Botão e links dá para tocar com o dedo (área grande o suficiente)
+- [x] Você abriu no modo celular do Chrome
+- [x] Texto não sai da tela (sem scroll horizontal)
+- [x] Botão e links dá para tocar com o dedo (área grande o suficiente)
 
 ---
+
+
 
 ## Dia 7 — Git + GitHub + mostrar para alguém
 
@@ -227,8 +243,11 @@ Mostre o link para uma pessoa. Peça: “abre no celular e me diz se lê fácil�
 
 ---
 
+
+
 ## O que NÃO fazer nesta semana
 
 - Não instale React, Bootstrap nem “template HTML grátis”
 - Não assista um curso de 8 horas no lugar de editar o arquivo
 - Não pule o GitHub “para depois” — a conta é no dia 1, o push no dia 7
+

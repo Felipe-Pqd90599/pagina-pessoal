@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do — Felipe</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-texto">
+        <h1>To-do list</h1>
+        <p>Semana 2 · JavaScript</p>
+      </div>
+      <nav aria-label="Navegação">
+        <a href="index.html">Página pessoal</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Dia 1 — Botão que muda texto</h2>
+        <p id="mensagem">Clique no botão para mudar este texto.</p>
+        <button type="button" id="btn-mudar">Mudar texto</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>Semana 2 · Guia em SEMANA-2.md</p>
+    </footer>
+
+    <script>
+      const botao = document.querySelector("#btn-mudar");
+const mensagem = document.querySelector("#mensagem");
+
+botao.addEventListener("click", function () {
+  mensagem.textContent = " 2026 Funcionou! Eu escrevi JavaScript hoje.";
+});
+    </script>
+  </body>
+</html>
